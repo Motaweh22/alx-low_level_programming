@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		for (x = argv[argc]; *x; x++)
 			if (*x < '0' || *x > '9')
 				return (printf("Error\n"), 1);
-		addition = addition + atoi(argv[argc]);
+		addition += atoi(argv[argc]);
 	}
 	printf("%d/n", addition);
 
