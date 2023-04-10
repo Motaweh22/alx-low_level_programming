@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("wrong inpust");
+		printf("wrong inpust\n");
 		return (1);
 	}
 
